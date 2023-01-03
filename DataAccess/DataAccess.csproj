@@ -32,8 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Dapper.1.60.1\lib\net451\Dapper.dll</HintPath>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.123\lib\net461\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="Sybase.AdoNet4.AseClient, Version=16.0.3.2, Culture=neutral, PublicKeyToken=95d94fac46c88e1e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -73,12 +73,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Scripts\jquery-2.1.1.min.map" />
+    <None Include="Scripts\jquery-3.6.1.min.map" />
+    <None Include="Scripts\jquery-3.6.1.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
-    <Content Include="Scripts\jquery-2.1.1.js" />
-    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.6.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.1.js" />
+    <Content Include="Scripts\jquery-3.6.1.min.js" />
+    <Content Include="Scripts\jquery-3.6.1.slim.js" />
+    <Content Include="Scripts\jquery-3.6.1.slim.min.js" />
     <Content Include="Scripts\nugetexample.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
