@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataAccess</RootNamespace>
     <AssemblyName>DataAccess</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -73,15 +73,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Scripts\jquery-3.6.1.min.map" />
-    <None Include="Scripts\jquery-3.6.1.slim.min.map" />
+    <None Include="Scripts\jquery-3.6.4.min.map" />
+    <None Include="Scripts\jquery-3.6.4.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery-3.6.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.6.1.js" />
-    <Content Include="Scripts\jquery-3.6.1.min.js" />
-    <Content Include="Scripts\jquery-3.6.1.slim.js" />
-    <Content Include="Scripts\jquery-3.6.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.6.4.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.4.js" />
+    <Content Include="Scripts\jquery-3.6.4.min.js" />
+    <Content Include="Scripts\jquery-3.6.4.slim.js" />
+    <Content Include="Scripts\jquery-3.6.4.slim.min.js" />
     <Content Include="Scripts\nugetexample.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
